@@ -41,18 +41,22 @@
       </label>
       <label class="input-info">
         Password:
-        <input type="password" name="psw" minlength="8" required>
+        <input type="password" name="password" minlength="8" required>
       </label>
     </fieldset>
     <fieldset class="fieldset field-padding-bottom">
       <legend>An interesting fact about you!</legend>
-        <label class="input-info">
-          Do you love cats?
-          <input type="radio"  name="love-cats" id="yes" value="yes">
+      <label class="input-info">
+        Do you love cats?
+        <input type="radio"  name="love-cats" id="yes" value="yes">
+        <label for="yes">
           Yes
-          <input type="radio" id="no" name="love-cats" value="no">
-          No
         </label>
+        <input type="radio" id="no" name="love-cats" value="no">
+        <label for="no">
+            No
+        </label>
+      </label>
       <label for="color" class="input-info">
         What is your favorite color?
         <input type="color" id="color" name="color" required>

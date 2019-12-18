@@ -1,0 +1,12 @@
+.fieldset {
+  margin-bottom: 20px;
+}
+
+.field-pad-bot {
+  padding-bottom: 0;
+}
+
+.input {
+  display: block;
+  margin-bottom: 10px;
+}
